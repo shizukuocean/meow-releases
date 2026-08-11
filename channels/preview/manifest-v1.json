@@ -1,7 +1,7 @@
 {
     "schema_version":  "meow-update-manifest/v1",
     "manifest_url":  "https://shizukuocean.github.io/meow-releases/channels/preview/manifest-v1.json",
-    "generated_at":  "2026-08-11T12:33:32Z",
+    "generated_at":  "2026-08-11T13:50:25Z",
     "products":  [
                      {
                          "product_id":  "brain2-manager",
@@ -60,16 +60,16 @@
                      {
                          "product_id":  "meow-launcher",
                          "channel":  "preview",
-                         "version":  "0.6.7-preview.2",
-                         "published_at":  "2026-08-11T12:33:32Z",
-                         "release_notes":  "修复线上更新通道并强化发布门禁：永久清单与版本安装包地址分离，继续由 Launcher 统一校验、安装、回滚和重启。",
-                         "download_url":  "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-11.2/meow-launcher-0.6.7-preview.2-windows-x64.exe",
+                         "version":  "0.6.7-preview.3",
+                         "published_at":  "2026-08-11T13:50:25Z",
+                         "release_notes":  "修复窗口最小化、最大化和关闭按钮不可见；公开 Preview 无需登录，检查版本后即可选择目录并安装。",
+                         "download_url":  "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-11.3/meow-launcher-0.6.7-preview.3-windows-x64.exe",
                          "installer_type":  "meow-bundle-one-shot",
                          "access_policy":  "public",
                          "install_scope":  "per-user",
                          "install_directory_name":  "Meow Launcher",
                          "executable_relative_path":  "Meow Launcher.exe",
-                         "sha256":  "7407333333e6d15b69270b5bc2b1b69cb9a9cc66f71a87befa2b074bea5d83bc",
+                         "sha256":  "fccf49fc90075d74990bdf7ac68f4c841c18d286c479538ad0f0d9e641fdad91",
                          "signature":  {
                                            "method":  "authenticode",
                                            "required":  false
