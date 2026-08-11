@@ -1,7 +1,7 @@
 {
     "schema_version":  "meow-update-manifest/v1",
     "manifest_url":  "https://shizukuocean.github.io/meow-releases/channels/preview/manifest-v1.json",
-    "generated_at":  "2026-08-11T13:50:25Z",
+    "generated_at":  "2026-08-11T14:40:59Z",
     "products":  [
                      {
                          "product_id":  "brain2-manager",
@@ -60,16 +60,16 @@
                      {
                          "product_id":  "meow-launcher",
                          "channel":  "preview",
-                         "version":  "0.6.7-preview.3",
-                         "published_at":  "2026-08-11T13:50:25Z",
-                         "release_notes":  "修复窗口最小化、最大化和关闭按钮不可见；公开 Preview 无需登录，检查版本后即可选择目录并安装。",
-                         "download_url":  "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-11.3/meow-launcher-0.6.7-preview.3-windows-x64.exe",
+                         "version":  "0.6.7-preview.4",
+                         "published_at":  "2026-08-11T14:40:59Z",
+                         "release_notes":  "修复 GitHub 下载连接长时间 0 字节卡住：45 秒无数据会安全停止并允许重试；同时修复安装状态、发布时间、版本说明和操作按钮的显示布局。",
+                         "download_url":  "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-11.4/meow-launcher-0.6.7-preview.4-windows-x64.exe",
                          "installer_type":  "meow-bundle-one-shot",
                          "access_policy":  "public",
                          "install_scope":  "per-user",
                          "install_directory_name":  "Meow Launcher",
                          "executable_relative_path":  "Meow Launcher.exe",
-                         "sha256":  "fccf49fc90075d74990bdf7ac68f4c841c18d286c479538ad0f0d9e641fdad91",
+                         "sha256":  "3f00353c5d92fa02abdb5e3b4ea8fbd7a22af9b844202002875049264bcee731",
                          "signature":  {
                                            "method":  "authenticode",
                                            "required":  false
