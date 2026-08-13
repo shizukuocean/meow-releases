@@ -1,7 +1,7 @@
 {
     "schema_version":  "meow-update-manifest/v1",
     "manifest_url":  "https://shizukuocean.github.io/meow-releases/channels/preview/manifest-v1.json",
-    "generated_at":  "2026-08-11T16:38:15Z",
+    "generated_at":  "2026-08-13T09:50:12Z",
     "products":  [
                      {
                          "product_id":  "brain2-manager",
@@ -33,16 +33,16 @@
                      {
                          "product_id":  "dev-helper",
                          "channel":  "preview",
-                         "version":  "0.3.1-preview.2",
-                         "published_at":  "2026-08-11T12:33:32Z",
-                         "release_notes":  "修复线上更新通道：应用现在持续读取永久 Preview 清单，可发现后续版本并准确打开 Launcher 的 Helper 更新页。",
-                         "download_url":  "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-11.2/dev-helper-0.3.1-preview.2-windows-x64.exe",
+                         "version":  "0.3.1-preview.3",
+                         "published_at":  "2026-08-13T09:50:10Z",
+                         "release_notes":  "更新链路验收版：无产品功能变化，用于验证 Helper 在应用内发现新版本、准确打开 Launcher，并在原安装目录完成下载、校验、替换和重新启动。",
+                         "download_url":  "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-13.7/dev-helper-0.3.1-preview.3-windows-x64.exe",
                          "installer_type":  "meow-bundle",
                          "access_policy":  "public",
                          "install_scope":  "per-user",
                          "install_directory_name":  "Dev Helper",
                          "executable_relative_path":  "Dev Helper.exe",
-                         "sha256":  "7ecd434102096fcfe2d8de9321127c7b52273cd1be90286b4864648f5a6713fd",
+                         "sha256":  "8f79ecd3c47f756e6b224bcd96486ad8b7060b376d86c0cd434545055066c267",
                          "signature":  {
                                            "method":  "authenticode",
                                            "required":  false
