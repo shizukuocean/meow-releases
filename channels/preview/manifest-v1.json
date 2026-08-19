@@ -1,88 +1,88 @@
 {
-    "schema_version":  "meow-update-manifest/v1",
-    "manifest_url":  "https://shizukuocean.github.io/meow-releases/channels/preview/manifest-v1.json",
-    "generated_at":  "2026-08-17T19:37:35Z",
-    "products":  [
-                     {
-                         "product_id":  "brain2-manager",
-                         "channel":  "preview",
-                         "version":  "0.6.7-preview.6",
-                         "published_at":  "2026-08-17T19:37:35Z",
-                         "release_notes":  "空白更新链路验收版：不改动 Manager 产品功能，仅提升版本号，用于复验启动后自动发现更新、设置入口红点、Launcher 对应页跳转、原路径替换和单实例重启。",
-                         "download_url":  "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-18.1/brain2-manager-0.6.7-preview.6-windows-x64.exe",
-                         "installer_type":  "meow-bundle",
-                         "access_policy":  "public",
-                         "install_scope":  "per-user",
-                         "install_directory_name":  "Brain2 Manager",
-                         "executable_relative_path":  "Brain2 Manager.exe",
-                         "sha256":  "90fabe30dc2e9e7e46af7e420f703440fe91699c78a003426512f8badeafbec1",
-                         "signature":  {
-                                           "method":  "authenticode",
-                                           "required":  false
-                                       },
-                         "minimum_launcher_version":  "0.6.6",
-                         "minimum_supported_version":  "0.6.6",
-                         "mandatory":  false,
-                         "data_migration_version":  "none",
-                         "rollback":  {
-                                          "strategy":  "bundle-transaction",
-                                          "previous_version_supported":  true,
-                                          "backup_required":  true
-                                      }
-                     },
-                     {
-                         "product_id":  "dev-helper",
-                         "channel":  "preview",
-                         "version":  "0.3.1-preview.7",
-                         "published_at":  "2026-08-17T19:37:35Z",
-                         "release_notes":  "空白更新链路验收版：不改动 Helper 产品功能，仅提升版本号，用于验收启动后自动发现更新、设置入口红点、Launcher 对应页跳转、原路径替换和单实例重启。",
-                         "download_url":  "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-18.1/dev-helper-0.3.1-preview.7-windows-x64.exe",
-                         "installer_type":  "meow-bundle",
-                         "access_policy":  "public",
-                         "install_scope":  "per-user",
-                         "install_directory_name":  "Dev Helper",
-                         "executable_relative_path":  "Dev Helper.exe",
-                         "sha256":  "65d64af703d1b55e3f04c03b625f2cae8f2e62a177d4d5968ce72d90ca3c5009",
-                         "signature":  {
-                                           "method":  "authenticode",
-                                           "required":  false
-                                       },
-                         "minimum_launcher_version":  "0.6.6",
-                         "minimum_supported_version":  "0.3.0-p1",
-                         "mandatory":  false,
-                         "data_migration_version":  "none",
-                         "rollback":  {
-                                          "strategy":  "bundle-transaction",
-                                          "previous_version_supported":  true,
-                                          "backup_required":  true
-                                      }
-                     },
-                     {
-                         "product_id":  "meow-launcher",
-                         "channel":  "preview",
-                         "version":  "0.6.7-preview.28",
-                         "published_at":  "2026-08-17T19:37:35Z",
-                         "release_notes":  "修复已安装的 Meow Launcher 在尚未检查更新时隐藏“检查产品更新”按钮的问题；Launcher 自更新页现在始终提供明确可见的检查入口。三产品下载、校验、正常关闭旧产品、原路径替换、失败恢复和重启边界保持不变，不安装常驻更新服务。",
-                         "download_url":  "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-18.1/meow-launcher-0.6.7-preview.28-windows-x64.exe",
-                         "installer_type":  "meow-bundle-one-shot",
-                         "access_policy":  "public",
-                         "install_scope":  "per-user",
-                         "install_directory_name":  "Meow Launcher",
-                         "executable_relative_path":  "Meow Launcher.exe",
-                         "sha256":  "b1eb8e840abd9a758b519c4621998dc41da85103ba2a8d3c8140f8acd42c0be0",
-                         "signature":  {
-                                           "method":  "authenticode",
-                                           "required":  false
-                                       },
-                         "minimum_launcher_version":  "0.6.6",
-                         "minimum_supported_version":  "0.6.6",
-                         "mandatory":  false,
-                         "data_migration_version":  "none",
-                         "rollback":  {
-                                          "strategy":  "one-shot-bundle-restore",
-                                          "previous_version_supported":  true,
-                                          "backup_required":  true
-                                      }
-                     }
-                 ]
+  "schema_version": "meow-update-manifest/v1",
+  "manifest_url": "https://shizukuocean.github.io/meow-releases/channels/preview/manifest-v1.json",
+  "generated_at": "2026-08-19T08:38:50Z",
+  "products": [
+    {
+      "product_id": "brain2-manager",
+      "channel": "preview",
+      "version": "0.6.7-preview.6",
+      "published_at": "2026-08-19T08:38:50Z",
+      "release_notes": "Brain2 Manager 继续保持 0.6.7-preview.6；本轮没有 Manager 产品功能或界面改动。",
+      "download_url": "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-19.1/brain2-manager-0.6.7-preview.6-windows-x64.exe",
+      "installer_type": "meow-bundle",
+      "access_policy": "public",
+      "install_scope": "per-user",
+      "install_directory_name": "Brain2 Manager",
+      "executable_relative_path": "Brain2 Manager.exe",
+      "sha256": "907cee958b0c8d1e96734e5cd49ad86c388447662998faf9ed4abeaaae01bad1",
+      "signature": {
+        "method": "authenticode",
+        "required": false
+      },
+      "minimum_launcher_version": "0.6.6",
+      "minimum_supported_version": "0.6.6",
+      "mandatory": false,
+      "data_migration_version": "none",
+      "rollback": {
+        "strategy": "bundle-transaction",
+        "previous_version_supported": true,
+        "backup_required": true
+      }
+    },
+    {
+      "product_id": "dev-helper",
+      "channel": "preview",
+      "version": "0.3.1-preview.8",
+      "published_at": "2026-08-19T08:38:50Z",
+      "release_notes": "将设置入口的更新提示红点与 Brain2 Manager 对齐：使用 8px 实心 Meow 橙色圆点、无深色描边和 3px 半透明辉光。更新发现、Launcher 跳转、下载、校验、原路径替换与重启逻辑保持不变。",
+      "download_url": "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-19.1/dev-helper-0.3.1-preview.8-windows-x64.exe",
+      "installer_type": "meow-bundle",
+      "access_policy": "public",
+      "install_scope": "per-user",
+      "install_directory_name": "Dev Helper",
+      "executable_relative_path": "Dev Helper.exe",
+      "sha256": "47fbc362f622e822fee45e21c312cb16394ee74339bd302d5c7180aebcb59f65",
+      "signature": {
+        "method": "authenticode",
+        "required": false
+      },
+      "minimum_launcher_version": "0.6.6",
+      "minimum_supported_version": "0.3.0-p1",
+      "mandatory": false,
+      "data_migration_version": "none",
+      "rollback": {
+        "strategy": "bundle-transaction",
+        "previous_version_supported": true,
+        "backup_required": true
+      }
+    },
+    {
+      "product_id": "meow-launcher",
+      "channel": "preview",
+      "version": "0.6.7-preview.28",
+      "published_at": "2026-08-19T08:38:50Z",
+      "release_notes": "Meow Launcher 继续保持 0.6.7-preview.28；本轮没有 Launcher 产品功能或界面改动。",
+      "download_url": "https://github.com/shizukuocean/meow-releases/releases/download/updates-preview-2026-08-19.1/meow-launcher-0.6.7-preview.28-windows-x64.exe",
+      "installer_type": "meow-bundle-one-shot",
+      "access_policy": "public",
+      "install_scope": "per-user",
+      "install_directory_name": "Meow Launcher",
+      "executable_relative_path": "Meow Launcher.exe",
+      "sha256": "a0b883806917e78ba095f2e5056d24e1705f5ffefe8517448932e723a87939a2",
+      "signature": {
+        "method": "authenticode",
+        "required": false
+      },
+      "minimum_launcher_version": "0.6.6",
+      "minimum_supported_version": "0.6.6",
+      "mandatory": false,
+      "data_migration_version": "none",
+      "rollback": {
+        "strategy": "one-shot-bundle-restore",
+        "previous_version_supported": true,
+        "backup_required": true
+      }
+    }
+  ]
 }
